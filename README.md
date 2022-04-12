@@ -1,22 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# ToDo list
 
-> In this project, we intended to develop a dynamic website, which is a basic single page apps. and throughout this project we did follow the following requirements:
-
-- ES6 syntax.
-- ES6 modules.
-- callbacks and promises.
-- webpack.
-- JavaScript best practices and language style guides in code.
-- AAA pattern for unit tests.
-- Write units tests for a JavaScript app.
-- Follow Gitflow.
-- Solve simple git conflicts.
-- Send and receive data from an API.
-- Understand and use JSON.
-- Make JavaScript code synchronous.
-- Perform a code review for a team member.
+> In this project, I intended to use webpack and apply to ToDo List Project.
 
 ## Built With
 
@@ -24,37 +10,61 @@
 - JavaScript
 - SCSS
 - Webpack
-- API
-- Jest Testing and applying mocks
-
-## Media screen💻📱🖥️
-
-- Responsive design below and above 768px
 
 ## Methodology
 
-### Project Requirements
+### General Requirements
 
-- In this JavaScript capstone project we favorite food app based on an external API. we will select [Meals DB](https://www.themealdb.com/api.php) an API that provides data about different types of food.
+- CSS Preprocessor (SCSS)
+- JavaScript used for Dom Manipulation
+- JavaScript events are used
+- JavaScript objects to store and access data
+- Proper webpack configuration
+- Semantic HTML Tag
+- CSS Box Model
+- CSS FlexBox
+- Device Adaptability
+- Github pages for deployment
 
-#### This webapp have 2 user interfaces:
+### Specific Requirements
 
-1. A home page showing a list of foods that you can "like."
-2. A popup window with more data about an item that we can use to comment on it for a period of time.
+- Set up a new project with webpack.
+- Create an index.html file and write your HTML markup here. 
+- Create an empty To Do List placeholder (<ul> element). 
+- The index.html file is set as a template using the HTML Webpack Plugin.
+- Remove all hardcoded items from the tasks array
+- A new javascript file created for the new functionality
+- A function is implemented for adding a new task
+- A function is implemented for deleting a task
+- A function is implemented for editing task description
+- Incase of deletion the order of the index is shifted and rearranged
+- Add a new JavaScript file and import it as a module:
+- Add event listener to the checkbox (change).
+- Update items object's value for completed key upon user actions.
+- Implement a function for the "Clear all completed" button (use filter() method).
+- Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
+- Changes are saved to local storage
+- Each task object contain three keys:
+  - description [string].
+  - completed [bool].
+  - index: [number].
+- Write a function to iterate over the tasks array and populate an HTML list item element for each task.
+- On page load render the dynamically created list of tasks in the dedicated placeholder. 
+- The list is appear in order of the index values for each task.
+- Create a main.scss and set rules for the To Do List. 
+- SCSS is be loaded by Webpack Style/SCSS Loader. 
+
+## Working Device Screen Size
+
+- All screen size (4 screen sizes)
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/AminaBuhari.github.io/Kanban-Board/)
+[Live Demo Link]( https://teshemaximillan.github.io/ToDoList/)
 
 ## Screenshot
 
-- **Project Screenshot**: home page
-
-![project screenshot - home page]()
-
-- **Project Screenshot**: Comment page
-
-![project screenshot - comment page]()
+![project screenshot](![Awesome Book Screenshot](![ToDo List Screenshot](![ToDo List Screenshot-2](![ToDo List Screenshot-2](https://user-images.githubusercontent.com/51437483/160021639-84cc5828-c0f8-44a5-bf38-a7d91b2e10e0.JPG)))))
 
 # Author
 
@@ -64,22 +74,13 @@
 - Twitter: [@twitterhandle](https://twitter.com/TesheKura)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/teshome-kurabachew-aa8067180/)
 
-👤 **Aminat Buhari**
-
-- GitHub: [@githubhandle](https://github.com/AminaBuhari)
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
-
 ## Credential
-
-- **Meal DB:** [MealDB API](https://www.themealdb.com/api.php)
-- **MicroverseI:** - [Involvement API](https://www.notion.so/Involvement-API-869e60b5ad104603aa6db59e08150270)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AminaBuhari.github.io/Kanban-Board/issues).
+Feel free to check the [issues page](https://github.com/TesheMaximillan/ToDoList/issues).
 
 ## Show your support
 
